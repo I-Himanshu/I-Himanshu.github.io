@@ -130,6 +130,10 @@ body {
     box-shadow:0 0 20px 3px #666;
     padding:10px 5px;
     margin:30px auto;
+    border-radius:0.5vmax;
+}
+.project h3{
+  font-size:4vmax;
 }
 .project img{
     width:100%;
@@ -165,4 +169,52 @@ body {
   text-align:center;
   widows:100%;
   background:#000;
+}
+
+
+:root{
+    --margin:2vh;
+}
+.menu{
+    position:fixed;
+    top:var(--margin);
+    left:0;
+    transition:400ms;
+    overflow-x:visible;
+    font-size:10vmin;
+    z-index:10;
+    padding:2vh 0;
+}
+.menu .fas{
+    position:fixed;
+    top:0;
+    left:0;
+    color:red;
+    padding:10px;
+}
+.menu .options a{
+    transform:rotatez(0deg) translateX(-200px);
+    transform-origin:150% 150%;
+    transition:1s;
+    opacity:0;
+    color:#fff;
+    text-decoration:none;
+    display: block;
+}
+
+.menu:hover{
+    transform:scale(1);
+}
+.menu:hover .options a{
+    height:auto;
+    transform:rotateZ(0);
+    font-weight:700;
+    background:#37d;
+    margin:5px 0;
+    border-radius:20px;
+    padding:1px 20px;
+    opacity:1;
+}
+.menu .options a:hover{
+  background:linear-gradient(to right,#92d,#fff);
 }
