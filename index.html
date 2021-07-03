@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Mask Man,Kalyug Ka Rawan,Myself Himanshu,@ADMlNxd">
+  <meta name="keywords" content="Mask Man,Kalyug Ka Rawan,Myself Himanshu,@ADMlNxd">
+  <meta name="author" content="Himanshu Kumar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <title>portfolio</title>
+</head>
+<body>
+  <div id=particle-js></div>
+  <div class="main1" id="main1">
+    <div class="portfolio">
+      <h2 class="name">Himanshu Kumar</h2>
+      <div class="social-media">
+        <a href="https://www.instagram.com" class="icon" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="icon">
+          <em class="fab fa-facebook"></em>
+        </a>
+
+        <a href="#" class="icon">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+      </div>
+      <p class="about">
+        <span class="profession"></span>
+      </p>
+      <a href="#about" class="fas fa-angle-down"></a>
+    </div>
+  </div>
+  <script src="js/typed.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    let options = {
+      strings: [
+        "I Am A Web Developer",
+        "I Am A Coder",
+        "I Am A Programmer",
+        "I Am An Anime Lover",
+        "Me Single Boy",
+        " Kid  From Heart)"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true,
+      loopCount: Infinity
+    }
+
+    let typedText = new Typed(
+      ".profession",
+      options
+    );
+
+
+
+
+
+    // ParticlesJS Config.
+    particlesJS("particle-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 700
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+        },
+        "opacity": {
+          "value": 1.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 0.1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 10,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+  <div class="main2" id="about">
+    <div class="profile">
+      <img class="dp" src="./img/mask-man.jpg">
+      <p class="about-me">
+        Science Student,studying for Joint Entrance Examination.
+        make people happy is my hobby and my weakness is laughing without reason.
+        my speciality is i can create anything that i can imagine
+        will graduate in 2025 in Delhi University
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <!--Projects Section-->
+  <div class="main3" id="project">
+    <div class="project" data-aos="fade-right">
+      <h3>Calculator Website</h3>
+      <img src="https://people.umass.edu/avsingh/assets/img/jpg/Perpetual-Crusades.jpg">
+      <p class="description">
+        I have created an amazing calculator project that may inhence your mathematical problem solving skill in a magical way, you can solve a hardest question in just 5s and finding any value of log is also possible in just one click
+      </p>
+      <button class="explore">Explore</button>
+    </div>
+
+    <div class="project" data-aos="fade-left">
+      <h3>Calculator Website</h3>
+      <img src="https://people.umass.edu/avsingh/assets/img/jpg/Perpetual-Crusades.jpg">
+      <p class="description">
+        I have created an amazing calculator project that may inhence your mathematical problem solving skill in a magical way, you can solve a hardest question in just 5s and finding any value of log is also possible in just one click
+      </p>
+      <button class="explore">Explore</button>
+    </div>
+
+
+    <div class="project" data-aos="fade-right">
+      <h3>Calculator Website</h3>
+      <img src="https://people.umass.edu/avsingh/assets/img/jpg/Perpetual-Crusades.jpg">
+      <p class="description">
+        I have created an amazing calculator project that may inhence your mathematical problem solving skill in a magical way, you can solve a hardest question in just 5s and finding any value of log is also possible in just one click
+      </p>
+      <button class="explore">Explore</button>
+    </div>
+ 
+ 
+ <footer class="footer">@👹 कलयुग का रावण  👹 2021</footer>
+  </div>
+  <script src="./js/aos.js"></script>
+  <script>
+    AOS.init({
+      delay:30,
+  duration:500
+    })
+  </script>
+</body>
+</html>

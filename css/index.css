@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth
+}
+*{
+  margin:0;padding:0;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+}
+#particle-js{
+  position:absolute;
+  top:0;
+  height:200vh;
+  width: 100vw;
+  background: linear-gradient(#274,#47b);
+  
+}
+.main1{
+  position:absolute;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  z-index:2;
+  width:100vw;
+}
+.portfolio {
+  text-align: center;
+}
+.name {
+  font-family: 'Tourney', cursive;
+  font-size: 4em;
+  color: white;
+  line-height:0.8;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px green;
+}
+.about {
+  text-shadow: 1px 1px 0px green;
+  font-family: "Times New Roman";
+  font-size: 3vmax;
+  color: white;
+  letter-spacing: 0px;
+  margin: 0;
+  margin-top: 5vmax;
+}
+.social-media {
+  margin-top: 10px;
+  font-size: 1.7em;
+}
+.social-media a,.social-media a:visited {
+  width: 25%;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+.fa-angle-down{
+  font-size:4em;
+  color:#ddd;
+  animation: fa-angle-down 3s ease-in-out infinite;
+  font-style:none;
+  text-decoration: none;
+}
+@keyframes fa-angle-down{
+  0%,30%,50%{
+    transform:translatey(0px);
+  }
+  20%,40%{
+    transform: translatey(-10px);
+  }
+  100%{
+    transform: translatey(0px);
+  }
+}
+
+
+
+
+
+.main2{
+  position:absolute;
+  top:100vh;
+  height:100vh;
+  background:linear-gradient(#2a96,#48b6, transparent);
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.main2 .profile{
+  background:#fff2;
+  padding:3vmax;
+}
+.main2 .dp{
+  width:30%;
+  height:auto;
+  border-radius:50%;
+  margin:0 auto;
+  box-shadow:2px 2px 19px 0px #000;
+}
+.about-me{
+  font-size:3vmax;
+  text-align: justify;
+  width:85%;
+  margin:0 auto;
+  color:white;
+}
+
+
+
+
+
+.main3{
+  position:absolute;
+  top:200vh;
+  height:auto;
+  background:linear-gradient(#2a96,#48b6, transparent);
+  width:100vw;
+  text-align:center;
+  background:#fff;
+}
+.project{
+    height:auto;
+    width:80vw;
+    text-align:center;
+    box-shadow:0 0 20px 3px #666;
+    padding:10px 5px;
+    margin:30px auto;
+}
+.project img{
+    width:100%;
+}
+.project p{
+    text-align:center;
+    padding:0 15px;
+}
+.project button{
+    margin-top:10px;
+    outline:none;
+    border:none;
+    background:#fff;
+    box-shadow:0 0 3px 0px #000;
+    border-radius:20px;
+    padding:5px 15px;
+    text-transform:uppercase;
+    font-weight:bolder;
+    transition:200ms;
+    color:#000;
+    font-size:1.3em;
+}
+.project button:active{
+    background:#42f;
+    border-radius:30px;
+    color:white;
+    box-shadow:none;
+    transform:scale(0.9);
+}
+.footer{
+  font-size:3vmax;
+  color:#fff;
+  text-align:center;
+  widows:100%;
+  background:#000;
+}
