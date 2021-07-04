@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=STIX+Two+Math&display=swap');
 html {
   margin: 0;
   padding: 0;
@@ -40,7 +41,7 @@ body {
 }
 .about {
   text-shadow: 1px 1px 0px green;
-  font-family: "Times New Roman";
+  font-family: 'STIX Two Math', serif;
   font-size: 3vmax;
   color: white;
   letter-spacing: 0px;
@@ -209,12 +210,66 @@ body {
     height:auto;
     transform:rotateZ(0);
     font-weight:700;
-    background:#37d;
+    background:linear-gradient(#37d);
     margin:5px 0;
     border-radius:20px;
-    padding:1px 20px;
+    padding:4px 30px;
     opacity:1;
+    font-size:8vmin;
 }
 .menu .options a:hover{
   background:linear-gradient(to right,#92d,#fff);
+}
+
+
+
+/*CONTACT FORM*/
+.form{
+    width:80%;
+    text-align:center;
+    position:relative;
+    padding:5vmax;
+    background:#fff;
+    border-radius:5px;
+    max-width:600px;
+    box-shadow:0 0 40px -10px #000;
+    margin:30vw auto;
+}
+.form h1{
+    color:#000;
+    text-shadow:1px 1px 0px #000;
+    font-family: 'STIX Two Math', serif;
+}
+.form .inp-box,.txt-area{
+    font-size:1em;
+    width:100%;
+    border-radius:5px;
+    border:none;
+    box-shadow:0 0 0px 1px #aaa;
+    margin-top:20px;
+    outline:none;
+    padding:6px 10px;
+    background:#eee;
+    color:blue;
+    transition:300ms;
+}
+.form .inp-box:focus,.txt-area:focus{
+    box-shadow:0 0 10px 2px #fff;
+}
+.txt-area{
+    width:95%;
+    padding-top:20px;
+}
+.submit{
+    outline:none;
+    border:none;
+    width:90%;
+    padding:10px 0;
+    border-radius:29px;
+    background:#f94;
+    margin:2vmax;
+    transition:300ms;
+}
+.submit:active{
+    transform:scale(0.7);
 }
