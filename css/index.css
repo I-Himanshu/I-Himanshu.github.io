@@ -185,7 +185,6 @@ body {
     font-size:10vmin;
     z-index:10;
     padding:2vh 0;
-    border:2px solid white;
 }
 .menu .fas{
     position:fixed;
