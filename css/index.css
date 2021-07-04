@@ -185,6 +185,7 @@ body {
     font-size:10vmin;
     z-index:10;
     padding:2vh 0;
+    border:2px solid white;
 }
 .menu .fas{
     position:fixed;
@@ -201,6 +202,7 @@ body {
     color:#fff;
     text-decoration:none;
     display: block;
+    width:0;
 }
 
 .menu:hover{
@@ -216,6 +218,7 @@ body {
     padding:4px 30px;
     opacity:1;
     font-size:8vmin;
+    width:100%;
 }
 .menu .options a:hover{
   background:linear-gradient(to right,#92d,#fff);
