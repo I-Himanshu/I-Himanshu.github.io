@@ -6,10 +6,10 @@ var myProjects=[
     "link":"https://i-himanshu.github.io/Beautiful-Clock"
   },
   {
-    "title":"Calculator Website",
-    "description":"I have created an amazing calculator project that may inhence your mathematical problem solving skill in a magical way, you can solve a hardest question in just 5s and finding any value of log is also possible in just one click",
-    "thumbnail":"https://people.umass.edu/avsingh/assets/img/jpg/Perpetual-Crusades.jpg",
-    "link":"#"
+    "title":"My Timeline",
+    "description":"My Timeline to Represent My All Info In Just a single page, obviously it is not my full life but i covered best moments which will remind me of my old memories,And also some important points that may work as reminder for me in future",
+    "thumbnail":"https://telegra.ph/file/cd2b434a0d46edbb13481.jpg",
+    "link":"https://i-himanshu.github.io/my-timeline"
   },
   {
     "title":"Calculator Website",

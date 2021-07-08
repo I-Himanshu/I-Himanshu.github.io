@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This Is Error 404 That means there are nothing to show anything">
+  <meta name="keywords" content="Error 404,NoIndex,Error Page,Found A Error,No Page Found">
+  <meta name="author" content="Himanshu Kumar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="follow, noarchive, noindex">
+  <title>Error 404 - Page Not Found</title>
+  <style>
+    body {
+      background-color: #121b2b;
+    }
+
+
+    .box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+    }
+    .glitch,.p {
+      font-size: 60px;
+      color: #fff;
+      animation: glitch0.5s linear infinite;
+    }
+    .p {
+      font-size: 40px;
+      animation: none;
+      text-shadow: 1px 1px 3px red;
+      font-weight: 600;
+      line-height: 50px;
+      box-shadow: 0px 5px 15px 0 #48b;
+      width: 80%;
+      margin: 0 auto;
+    }
+@keyframes glitch {
+      0%, 100% {
+        text-shadow: -3px -3px 0 #6b0b7c,
+        3px 3px 0 rgb(0, 200, 155);
+      }
+      25% {
+        text-shadow: 3px 3px 0 #470970,
+        -3px -3px 0 rgb(205, 5, 255);
+      }
+      50% {
+        text-shadow: 3px -3px 0 #4b0981,
+        -3px 3px 0 rgb(0, 255, 255);
+      }
+      75% {
+        text-shadow: 3px 3px 0 #ffee00,
+        3px -3px 0 rgb(200, 25,0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h3 class="glitch">ERROR 404<br>
+    </h3>
+    <p class="p">
+      Page Not Found
+    </p>
+  </div>
+</body>
+
+</html>
