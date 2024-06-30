@@ -1,236 +1,1772 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="An Amazing Portfolio to show my(Himanshu) all work, hobby, Qualifications in simplest way">
-  <meta name="keywords" content="Mask Man,Kalyug Ka Rawan,Myself Himanshu,@ADMlNxd">
-  <meta name="author" content="Himanshu Kumar">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-  <title>portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Himanshu Kumar's Personal Portfolio Website"
+    />
+    <meta
+      name="keywords"
+      content="Himanshu Kumar, Full Stack Developer, Google DSC Lead, SIH WINNER, MERN Stack, Open Source Contributor"
+    />
+    <meta name="author" content="Himanshu Kumar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Himanshu Kumar's Portfolio</title>
+    <link
+      rel="icon"
+      href="favicon/android-chrome-512x512.png"
+      ,
+      type="image/x-icon/gif"
+      sizes="16x50"
+    />
+    <link rel="manifest" href="favicon/manifest.json" />
 
-  <div class="menu">
-    <i class="fas fa-bars"></i>
-    <div class="options">
-      <a href="#main1">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Project</a>
-      <a href="#contact">Contact</a>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/line-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
+    />
+    <link rel="stylesheet" href="./github-activity.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
+    ></script>
+    <script type="text/javascript" src="./github-activity.js"></script>
+
+    <!-- For forkaweso-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
     </div>
-  </div>
-  <div id=particle-js></div>
-  <div class="main1" id="main1">
-    <div class="portfolio">
-      <h2 class="name">Himanshu Kumar</h2>
-      <div class="social-media">
-        <a href="https://www.instagram.com" class="icon" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="icon">
-          <em class="fab fa-facebook"></em>
-        </a>
+    <header class="nav-area navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-menu">
+              <div class="navbar navbar-cus">
+                <div class="navbar-header">
+                  <span class="logo">HIMANSHU<span> KUMAR</span></span>
+                  <button
+                    type="button"
+                    class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
 
-        <a href="#" class="icon">
-          <i class="fab fa-telegram"></i>
-        </a>
-        <a href="#" class="icon">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="icon">
-          <i class="fab fa-google-plus-g"></i>
-        </a>
+                <div class="navbar-collapse collapse">
+                  <nav>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="active">
+                        <a class="smooth-menu" href="#home">Home</a>
+                      </li>
+                      <li><a class="smooth-menu" href="#about">About</a></li>
+                      <li>
+                        <a class="smooth-menu" href="#resume">Experience</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#services">Skills</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#projects">Projects</a>
+                      </li>
+                      <li>
+                        <a class="smooth-menu" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="about">
-        <span class="profession"></span>
-      </p>
-      <a href="#about" class="fas fa-angle-down"></a>
+    </header>
+
+    <div class="banner-area" id="home">
+      <div id="particles-js"></div>
+      <div class="banner-table">
+        <div class="banner-table-cell">
+          <div class="welcome-text">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 col-xs-12">
+                  <section class="intro animate-scale">
+                    <div class="img-area">
+                      <img
+                        src="https://avatars.githubusercontent.com/u/83366556"
+                        alt=""
+                      />
+                    </div>
+
+                    <h3>I'm Himanshu Kumar</h3>
+
+                    <h1 class="ah-headline">
+                      <span class="ah-words-wrapper">
+                        <b class="is-visible"
+                          >Passionate Full Stack Developer</b
+                        >
+                        <b>Google DSC Lead`23</b>
+                        <b>SIH'23 WINNER 🏆</b>
+                        <b>Open Source Contributor</b>
+                      </span>
+                    </h1>
+
+                    <div class="social-icon">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/i-himanshu"
+                            target="_blank"
+                            title="Linkedin"
+                            ><i class="fa fa-linkedin"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.github.com/i-himanshu"
+                            target="_blank"
+                            title="Github"
+                            ><i class="fa fa-github"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://t.me/i-himanshu"
+                            target="_blank"
+                            title="Telegram"
+                            ><i class="fa fa-telegram"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://dev.to/ihimanshu"
+                            target="_blank"
+                            title="Dev.to Blog"
+                            ><i class="fa fa-dev-to" aria-hidden="true"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+                  <div class="clearfix"></div>
+
+                  <a class="mouse-scroll hidden-xs dadada" href="#about">
+                    <span class="mouse">
+                      <span class="mouse-movement"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <script src="js/typed.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script>
-    let options = {
-      strings: [
-        "I Am A Web Developer",
-        "I Am A Coder",
-        "I Am A Programmer",
-        "I Am An Anime Lover",
-        "Me Single Boy",
-        " Kid  From Heart)"],
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 1000,
-      loop: true,
-      loopCount: Infinity
-    }
+    <!--Banner area ends-->
 
-    let typedText = new Typed(
-      ".profession",
-      options
-    );
+    <!--About area starts-->
+
+    <div class="about-area section-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="stack">
+              <img
+                src="https://avatars.githubusercontent.com/u/83366556"
+                alt="about image"
+              />
+            </div>
+          </div>
+          <div class="col-md-7 col-md-offset-1 col-sm-12">
+            <div class="about-right">
+              <h2>Full Stack Developer</h2>
+              <p>I am <span>Himanshu Kumar</span>.</p>
+              <p>
+                Currently a student at Bakhtiyarpur College of Engineering,
+                Patna. Passionate Full Stack Developer with over 1.5 years of
+                experience in various roles at Development & Testing. Skilled in
+                building innovative applications, contributing to open-source
+                projects, and leading teams to achieve significant milestones.
+                Enthusiastic about leveraging technology to create impactful
+                solutions and shape a better world.
+              </p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="about-list">
+                    <li>
+                      <span class="title">College</span>
+                      <span class="value"
+                        >Bakhtiyarpur College of Engineering, Patna
+                        (2021-2025)</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="about-list">
+                    <li>
+                      <span class="title">Email</span>
+                      <span class="value">himanshu.kumar5403@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#skills-bd" class="skill-btn btn-a">my skills</a>
+              <a
+                href="https://i-himanshu.github.io/I-Himanshu-24.pdf"
+                target="_blank"
+                class="down-btn btn-a"
+                ><i class="fa fa-arrow-down w3-margin-right"></i>Download
+                Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About area ends-->
+
+    <div class="col-twelve resume-header">
+      <h2>Work Experience</h2>
+    </div>
+    <!-- /resume-header -->
+
+    <div class="col-twelve">
+      <div class="timeline-wrap">
+        <div class="timeline-block">
+          <div class="timeline-ico">
+            <i class="fa fa-briefcase"></i>
+          </div>
+
+          <div class="timeline-header">
+            <h3>SALESFORCE | Salesforce Developer Virtual Internship Remote</h3>
+            <p>Dec 2023 - Jan 2024</p>
+          </div>
+
+          <div class="timeline-content text-align-justify">
+            <h4>Salesforce</h4>
+            <ul>
+              <li>
+                Completed over 20 Salesforce Trailhead modules, including
+                Salesforce Fundamentals, Organizational Setup, and Relationship
+                & Process Automation.
+              </li>
+              <li>
+                Mastered Types Of Flows & Security configurations for robust
+                application development.
+              </li>
+              <li>
+                Acquired proficiency in Apex programming, focusing on Testing &
+                Debugging for robust code quality.
+              </li>
+              <li>
+                Setup and configured VS Code & CLI for streamlined Salesforce
+                development environment.
+              </li>
+              <li>
+                Developed Lightning Web Components (LWC) & API integration
+                skills for modern UI and backend solutions.
+              </li>
+              <li>
+                Earned 3 prestigious Super Badges: Apex Specialist, Process
+                Automation Specialist, and Developer Super Set, showcasing
+                advanced skills and capabilities.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--
+            --------------------
+            -->
+
+        <div class="timeline-block">
+          <div class="timeline-ico">
+            <i class="fa fa-flask"></i>
+          </div>
+
+          <div class="timeline-header">
+            <h3>Machine Learning Intern</h3>
+            <p>YBI Foundation | Jan 2023 - Feb 2023</p>
+          </div>
+
+          <div class="timeline-content text-align-justify">
+            <h4>YBI Foundation, India</h4>
+            <ul>
+              <li>
+                Developed a Regression Model to predict cement compressive
+                strength with 75% accuracy.
+              </li>
+              <li>
+                Gained expertise in Regression and implemented 10+ Machine
+                Learning algorithms.
+              </li>
+              <li>
+                Used Python libraries like NumPy, Pandas, and Scikit-learn for
+                data preprocessing and model building.
+              </li>
+              <li>
+                Performed feature engineering and presented project findings to
+                stakeholders.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /timeline-block -->
+      </div>
+      <!-- /timeline-wrap -->
+    </div>
+    <!-- /col-twelve -->
+
+    <!---------------------------------------------------------------------------------->
+
+    <div class="col-twelve resume-header">
+      <h2>Achievements</h2>
+    </div>
+    <!-- /resume-header -->
+
+    <div class="col-twelve">
+      <div class="timeline-wrap">
+        <div class="timeline-block">
+          <div class="timeline-ico">
+            <i class="fa fa-briefcase"></i>
+          </div>
+
+          <div class="timeline-header">
+            <h3>GDSC Lead</h3>
+            <p>August 2023 - Present</p>
+          </div>
+
+          <div class="timeline-content text-align-justify">
+            <h4>Google Developer Student Clubs, India</h4>
+            <ul>
+              <li>
+                Facilitated growth and learning for over 600 students through
+                workshops and events.
+              </li>
+              <li>
+                Achieved top honors in Google Cloud and Gen AI Study Jams 2023.
+              </li>
+              <li>Effectively led a team of over 30 coordinators.</li>
+              <li>
+                Collaborated with a community of 500+ leads from various
+                colleges, fostering growth and collaboration.
+              </li>
+              <li>Visited Google Office Bangalore as a featured event.</li>
+              <li>
+                Secured over a lakh worth of swags throughout the year as a
+                club.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /timeline-block -->
+
+        <div class="timeline-block">
+          <div class="timeline-ico">
+            <i class="fa fa-code"></i>
+          </div>
+
+          <div class="timeline-header">
+            <h3>Web Developer Volunteer</h3>
+            <p>Aug 2022 - Jun 2023 | 11 months | India</p>
+          </div>
+
+          <div class="timeline-content text-align-justify">
+            <h4>Google Developer Student Clubs, India</h4>
+            <div>
+              As a Web Developer Volunteer, I enhanced my skills and contributed
+              to various projects at Google Developer Student Clubs.
+              Responsibilities included:
+              <ul>
+                <li>
+                  Leading web development projects, ensuring timely delivery and
+                  high-quality results.
+                </li>
+                <li>
+                  Collaborating with team members to create engaging and
+                  user-friendly websites.
+                </li>
+                <li>
+                  Conducting workshops and sessions, improving public speaking
+                  and teaching abilities.
+                </li>
+                <li>
+                  Assisting in organizing events and activities to foster a
+                  collaborative community.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-block">
+          <div class="timeline-ico">
+            <i class="fa fa-briefcase"></i>
+          </div>
+
+          <div class="timeline-header">
+            <h3>Volunteer</h3>
+            <p>January 2022 - August 2022</p>
+          </div>
+
+          <div class="timeline-content text-align-justify">
+            <h4>GDSC BCE Patna, Patna</h4>
+            <ul>
+              <li>
+                Assisted in organizing and conducting technical events and
+                workshops, promoting a culture of learning and innovation.
+              </li>
+              <li>
+                Supported the development of web applications, enhancing user
+                interaction and engagement.
+              </li>
+              <li>
+                Collaborated with team members to create and manage content for
+                the club's website and social media platforms.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /timeline-block -->
+      </div>
+      <!-- /timeline-wrap -->
+    </div>
+    <!-- /col-twelve -->
+
+    <!---------------------------------------------------------------------------------->
 
 
+    <!--Services area starts-->
 
+    <div class="services-area section-padding" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>My <span>Domains</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-compass"></i>
+              </div>
+              <div class="service-content">
+                <h4>Full Stack Development</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-gears"></i>
+              </div>
+              <div class="service-content">
+                <h4>Back-End Development</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-strategy"></i>
+              </div>
+              <div class="service-content">
+                <h4>Devops</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-layers"></i>
+              </div>
+              <div class="service-content">
+                <h4>Cyber Security</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-browser"></i>
+              </div>
+              <div class="service-content">
+                <h4>Front-End Development</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 service">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="icon-puzzle"></i>
+              </div>
+              <div class="service-content">
+                <h4>Web Scraping and Automation</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!--Services area ends-->
 
-    // ParticlesJS Config.
-    particlesJS("particle-js", {
-      "particles": {
-        "number": {
-          "value": 80,
-          "density": {
-            "enable": true,
-            "value_area": 700
-          }
-        },
-        "color": {
-          "value": "#ffffff"
-        },
-        "shape": {
-          "type": "circle",
-          "stroke": {
-            "width": 0,
-            "color": "#000000"
-          },
-          "polygon": {
-            "nb_sides": 5
-          },
-        },
-        "opacity": {
-          "value": 1.5,
-          "random": false,
-          "anim": {
-            "enable": false,
-            "speed": 0.1,
-            "opacity_min": 0.1,
-            "sync": false
-          }
-        },
-        "size": {
-          "value": 3,
-          "random": true,
-          "anim": {
-            "enable": false,
-            "speed": 10,
-            "size_min": 0.1,
-            "sync": false
-          }
-        },
-        "line_linked": {
-          "enable": true,
-          "distance": 150,
-          "color": "#ffffff",
-          "opacity": 0.4,
-          "width": 1
-        },
-        "move": {
-          "enable": true,
-          "speed": 2,
-          "direction": "none",
-          "random": false,
-          "straight": false,
-          "out_mode": "out",
-          "bounce": false,
-          "attract": {
-            "enable": false,
-            "rotateX": 600,
-            "rotateY": 1200
-          }
-        }
+    <!--Skills area starts-->
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="row">
+          <!-- Technical Skills -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-header">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Technical Skills</h3>
+              </div>
+              <ul class="skill-list">
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>React.JS</span></li>
+                <li><span>Next.JS</span></li>
+                <li><span>Node.JS</span></li>
+                <li><span>Express.JS</span></li>
+                <li><span>MongoDB</span></li>
+                <li><span>Python</span></li>
+                <li><span>Java</span></li>
+                <li><span>Kotlin</span></li>
+                <li><span>Jetpack Compose</span></li>
+                <li><span>C/C++</span></li>
+                <li><span>PHP</span></li>
+                <li><span>SQL/NoSQL</span></li>
+                <li><span>Firebase</span></li>
+                <li><span>Git Bash</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="col-lg-4 col-md-6">
+            <div class="skill-card">
+              <div class="skill-header">
+                <h3>Soft Skills</h3>
+              </div>
+              <ul class="skill-list">
+                <li><span>Leadership</span></li>
+                <li><span>Teamwork</span></li>
+                <li><span>Communication</span></li>
+                <li><span>Problem Solving</span></li>
+                <li><span>Creativity</span></li>
+                <li><span>Adaptability</span></li>
+                <li><span>Critical Thinking</span></li>
+                <li><span>Decision Making</span></li>
+                <li><span>Conflict Resolution</span></li>
+                <li><span>Empathy</span></li>
+                <li><span>Flexibility</span></li>
+                <li><span>Open-Mindedness</span></li>
+                <li><span>Patience</span></li>
+                <li><span>Persuasion</span></li>
+                <li><span>Positivity</span></li>
+                <li><span>Self-Motivation</span></li>
+                <li><span>Self-Confidence</span></li>
+                <li><span>Stress Management</span></li>
+                <li><span>Work Ethic</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="col-lg-4 col-md-12">
+            <div class="skill-card">
+              <div class="skill-header">
+                <i class="fas fa-tools"></i>
+                <h3>Tools</h3>
+              </div>
+              <ul class="skill-list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Android Studio</span></li>
+                <li><span>Git & GitHub</span></li>
+                <li><span>Postman</span></li>
+                <li><span>MongoDB Compass</span></li>
+                <li><span>PhPmyadmin</span></li>
+                <li><span>Jupyter Notebook</span></li>
+                <li><span>PyCharm</span></li>
+                <li><span>Linux</span></li>
+                <li><span>Docker</span></li>
+                <li><span>Google Cloud Platform</span></li>
+                <li><span>Figma</span></li>
+                <li><span>Power BI</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills area ends-->
+
+    <!-- Projects Section 
+
+    <div id="PROJECT" class="projects-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="projects-content">
+        <div class="projects-nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <ul class="port-nav-list">
+                  <li><a class="img-filter active" data-filter="*">All</a></li>
+                  <li>
+                    <a class="img-filter" data-filter=".ml">Data Science</a>
+                  </li>
+                  <li>
+                    <a class="img-filter" data-filter=".int"
+                      >Full Stack / Integrated</a
+                    >
+                  </li>
+                  <li>
+                    <a class="img-filter" data-filter=".osc">Open Sourced</a>
+                  </li>
+                  <li><a class="img-filter" data-filter=".oth">Others</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <br />
+          <br />
+          <div
+            class="row port-items"
+            id="img-filter"
+            style="position: relative; height: 570px"
+          >
+            <div
+              class="col-xs-12 single-port int"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\web-dev.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Sakila Film Project</b></span
+                    >
+                  </p>
+                  <p><i>Full Stack Project</i><br /></p>
+                  <p>
+                    Full Stack ExtJs Dynamic Java-EE Film Inventory Project with
+                    CURD Operations implemented using MySQL Server, Hibernate,
+                    Spring MVC with Struts2.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Java-Training-HRC"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port osc"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\ml.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Rare Label One-Hot-Encoder</b></span
+                    >
+                  </p>
+                  <p><i>Open Sourced Python Package</i><br /></p>
+                  <p>
+                    Python Package for Rare Label-One-Hot Categorical Encoder
+                    with Threshold Implementation.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://pypi.org/project/RLOHE/"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >PyPI Documentation</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Rare-Label-One-Hot-Enocder.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port osc"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\python.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Directory Tree</b></span
+                    >
+                  </p>
+                  <p><i>Open Sourced Python Package</i><br /></p>
+                  <p>
+                    Directory Tree is a simple python utility package that
+                    displays out the Tree Structure of a user-defined Directory.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://pypi.org/project/directory-tree/"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >PyPI Documentation</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Directory-Tree.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port osc"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\python.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Directory Organizer</b></span
+                    >
+                  </p>
+                  <p><i>Open Sourced Python Package</i><br /></p>
+                  <p>
+                    Directory Organiser is an open-sourced python package that
+                    scans your folder directory and arranges the files according
+                    to its specific file types to its type-specific directories
+                    making the directory neat and organized.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://pypi.org/project/directory-organizer/"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >PyPI Documentation</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Directory-Organizer.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port oth"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\web_scraper.jfif"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Craiglist Scrapping</b></span
+                    >
+                  </p>
+                  <p><i>Web Scrapping Project using Python.</i><br /></p>
+                  <p>
+                    Scraping Craiglist website using Selenium (Python),
+                    BeautifulSoup (BS4) to obtain desired results, and storing
+                    them off in a CSV for further work and analysis
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port ml"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\dl.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Face Mask Detector</b></span
+                    >
+                  </p>
+                  <p>
+                    <i
+                      >Deep Learning Project using OpenCV, Keras, Tensorflow and
+                      ResNet.</i
+                    ><br />
+                  </p>
+                  <p>
+                    It is a Mask Detection Program to detect and make people
+                    aware of wearing masks and protect themselves during the
+                    Corona Pandemic.
+                  </p>
+
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Mask-Detector.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port osc"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\python.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"><b>R07</b></span>
+                  </p>
+                  <p><i>Open Sourced Python Package</i><br /></p>
+                  <p>
+                    An Open-Source Python Package Developed for various
+                    utilities like fast downloading YouTube videos using CLI
+                    etc. More libraries are to be added to ‘R07’ with the course
+                    of time.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://pypi.org/project/R07/"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >PyPI Documentation</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/PyPI-Publish.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port int"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\exp\0.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b
+                        >AI-Enabled B2B Fin-Tech Management Dashboard for
+                        Accounts Receivables</b
+                      ></span
+                    >
+                  </p>
+                  <p><i>Full Stack AR Dashboard with Chatbot</i><br /></p>
+                  <p>
+                    Developed a Full Stack Dashboard Application using React,
+                    Node, Java EE, Flask, Restful APIs, SQLServer powered by
+                    Machine Learning and Dialogflow
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Fulfillment for AR Management and AI Enablement.
+                    <i>(Project for High Radius Summer Internship Training)</i>
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port int"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\covid24.jpg"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>CovidBot</b></span
+                    >
+                  </p>
+                  <p><i>Chatbot.</i><br /></p>
+                  <p>
+                    Bot/Agent which will act as a guide for self assessment of
+                    probable risks from corona virus and increase awareness
+                    about the pandemic. It answers any type of questions related
+                    to the pandemic and also tells you about the pandemic's
+                    statistics when asked for. The Bot can be also be asked
+                    about myths and rumours related and it also has the
+                    capability to mail a detailed report regarding the pandemic
+                    to the user.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://i-himanshu.me/CovidBot/"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Live Built</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://t.me/r07_CovidBot"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Telegram Bot</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/CovidBot.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port int"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\kiit.jpg"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b
+                        >Enhanced Analytic System for Smart University
+                        Assistance</b
+                      ></span
+                    >
+                  </p>
+                  <p><i>College Minor Project.</i><br /></p>
+                  <p>
+                    An integration specific system development based on Agile
+                    Methodology to provide an easy solution for “newcomers” in
+                    college. It helps to allocate hostel rooms, suggest suitable
+                    stream, and provide daily class schedules and pending tasks.
+                    Moreover it makes an easy solution to students to do few
+                    tasks without the help of their mentors. It aims to ease
+                    daily routine queries faced by students new to campus, would
+                    ensure the prediction of the professions that can be pursued
+                    by aspiring engineering students after completion of course
+                    and also help to automate the counselling process.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="http://befriend-minor.herokuapp.com"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Live Built</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Enhanced-Analytic-System-for-Smart-University-Assistance"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port ml"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\dl.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Traffic Sign Classification</b></span
+                    >
+                  </p>
+                  <p>
+                    <i>Deep Learning Project using CNN and Le-Net.</i><br />
+                  </p>
+                  <p>
+                    This Project uses Le-Net (a type of Convolutional Network)
+                    to predict type/class of Traffic Sign Provided before it
+                    making it the foundation of Self-Driving Cars. <br />To
+                    Predict : The Type/Class of Traffic Sign Provided
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Traffic-Sign-Classification-Using-LeNet-Network.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port ml"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\ml.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Predicting Crime Rate in Chicago</b></span
+                    >
+                  </p>
+                  <p>
+                    <i
+                      >Machine Learning Project using Facebook Prophet
+                      Forecasting.</i
+                    ><br />
+                    The Chicago Crime dataset contains a summary of the reported
+                    crimes occurred in the City of Chicago from 2001 to 2017.
+                    <br />To Predict : Future Crime Rate over a certain period
+                    along with its trends and bounds.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Predict-Crime-Rate-in-Chicago.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port ml"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\ml.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Movie Recommendation System</b></span
+                    >
+                  </p>
+                  <p>
+                    <i
+                      >Implementing Movie Recommendation System using Item-Based
+                      Collaborative Filtering.</i
+                    ><br />
+                    Recommendation systems are used to suggest movies or songs
+                    to users based on their interest or usage history.
+                    <br />To Predict : Recommend Movies based on User's recently
+                    watched Movies' Ratings and Interests.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Simple-Movie-Recommender-System.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port ml"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\ml.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Email/Message Spam Classifier</b></span
+                    >
+                  </p>
+                  <p>
+                    <i>Machine Learning Project using NLP</i><br />
+                    The SMS Spam Collection is a set of SMS tagged messages that
+                    have been collected for SMS Spam research. It contains one
+                    set of SMS messages in English of 5,574 messages, tagged
+                    according being ham (legitimate) or spam.
+                    <br />To Predict: If an email/message is spam or ham.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Spam-Classifier-using-Naive-Bayes.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port int"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\home\r07.jpg"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Current Portfolio Website</b></span
+                    >
+                  </p>
+                  <p>
+                    <i>My Current Resume & Portfolio Website. </i><br />
+                    Technology Stack Used : HTML, CSS, JavaScript, Bootstrap,
+                    Restful APIs
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="http://i-himanshu.me"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Live Built</a
+                    >
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/i-himanshu.github.io.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Repository Link</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-xs-12 single-port oth"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <ul class="resumes">
+                <li class="resume-item expr">
+                  <img
+                    src="images\\port\ssa.png"
+                    alt="Avatar"
+                    class="w3-left w3-circle w3-margin-right"
+                    style="width: 80px"
+                  />
+                  <p>
+                    <span class="w3-large w3-margin-right"
+                      ><b>Railway Reservation System</b></span
+                    >
+                  </p>
+                  <p><i>A Basic C++ Project.</i><br /></p>
+                  <p>
+                    Automation of the Railway Reservation System with the use of
+                    Object-Oriented Programming and Data File Technology using
+                    C++.
+                  </p>
+                  <p class="w3-medium">
+                    <a
+                      href="https://github.com/i-himanshu/Railway-Reservation-System.git"
+                      target="_blank"
+                      class="w3-hover-text-green"
+                      >Project Link</a
+                    >
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h6>
+          <center>
+            For more Projects, visit my
+            <a
+              href="https://github.com/i-himanshu"
+              target="_blank"
+              class="w3-hover-text-green"
+              >Github Profile</a
+            >.
+          </center>
+        </h6>
+      </div>
+    </div>
+
+-->
+    <!-- End Projects Section -->
+
+    <!---------------------------------------------------------------------------->
+    <style>
+      #project-container{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #project-container > div{
+        flex: 2;
+        min-width: 300px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+    </style>
+    <section class="w3-container w3-padding-64 w3-white" id="projects">
+      <h2 class="w3-center w3-text-black">My Projects</h2>
+      <div class="w3-row-padding" id="project-container"></div>
+    </section>
+
+    <script>
+      const projects = [
+      {
+        "title": "WebMindZ - AI Chat Companion",
+        "duration": "August 2023",
+        "description": "Empowering the visually impaired with an AI chatbot featuring Speech-to-Text, Text-to-Speech, unit conversion, gaming, translation, file management, real-time weather updates, and news services.",
+        "link": "https://webmindz.netlify.app",
+        "categories": ["Accessibility", "AI", "Web Development", "Next.JS"]
       },
-      "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-          "onhover": {
-            "enable": true,
-            "mode": "grab"
-          },
-          "onclick": {
-            "enable": true,
-            "mode": "push"
-          },
-          "resize": true
-        },
-        "modes": {
-          "grab": {
-            "distance": 140,
-            "line_linked": {
-              "opacity": 1
-            }
-          },
-          "bubble": {
-            "distance": 400,
-            "size": 40,
-            "duration": 2,
-            "opacity": 8,
-            "speed": 3
-          },
-          "repulse": {
-            "distance": 200,
-            "duration": 0.4
-          },
-          "push": {
-            "particles_nb": 4
-          },
-          "remove": {
-            "particles_nb": 2
-          }
-        }
+      {
+        "title": "AI Video Generator Automation",
+        "duration": "April 2023",
+        "description": "Automated script turning articles into voice, merging images, and creating captivating video content.",
+        "link": "https://github.com/I-Himanshu/TextToVideoPython",
+        "categories": ["Python", "Automation", "AI", "Video Generation"]
       },
-      "retina_detect": true
-    });
-  </script>
-  <div class="main2" id="about">
-    <div class="profile">
-      <img class="dp" src="./img/mask-man.jpg">
-      <p class="about-me">
-        Science Student,studying for Joint Entrance Examination.
-        make people happy is my hobby and my weakness is laughing without reason.
-        my speciality is i can create anything that i can imagine
-        will graduate in 2025 in Delhi University
-      </p>
+      {
+        "title": "Color Picker Chrome Extension",
+        "duration": "March 2023",
+        "description": "A user-friendly Chrome extension for picking colors from the screen and saving Hex values.",
+        "link": "https://github.com/I-Himanshu/color-picker-chrome-extension",
+        "categories": ["Chrome Extension", "JavaScript", "HTML", "CSS"]
+      },
+      {
+        "title": "Maggi Weather Forecast",
+        "duration": "February 2023",
+        "description": "Innovative weather web app providing hourly and weekly forecasts with a dynamic UI experience.",
+        "link": "https://fluffy-zuccutto-be870b.netlify.app/",
+        "categories": ["Weather", "API", "Web Development", "React.JS"]
+      },
+      {
+        "title": "Eventify: Seamless Event Management",
+        "duration": "February 2023",
+        "description": "A comprehensive event management platform for easy planning, scheduling, RSVPs, payments, and feedback.",
+        "link": "https://dot-io.vercel.app/",
+        "categories": [
+          "Event Management",
+          "API",
+          "Web Development",
+          "Next.JS",
+          "Firebase"
+        ]
+      },
+      {
+        "title": "Cement Strength Predictor",
+        "duration": "December 2022",
+        "description": "Explore a Regression Model predicting cement compressive strength, aiding informed decisions in concrete formulations.",
+        "link": "https://github.com/I-Himanshu/Regression_Model_to_Predict_Cement_Compressive_Strength_Project",
+        "categories": ["Machine Learning", "Python", "Regression Model"]
+      },
+      {
+        "title": "Certify: Bulk Certificate Generator",
+        "duration": "January 2023",
+        "description": "Official Peershala Certificate Generator Tool for effortless creation and customization of certificates.",
+        "link": "https://github.com/I-Himanshu/Certify",
+        "categories": ["NodeJS", "Automation", "Certificate Generation"]
+      },
+      {
+        "title": "Maggie Album",
+        "duration": "January 2023",
+        "description": "An open platform for storing and cherishing precious moments.",
+        "link": "",
+        "categories": ["React.JS", "Web Development", "Firebase"]
+      },
+      {
+        "title": "Artistic Analog Clock",
+        "duration": "December 2022",
+        "description": "A visually appealing Analog Clock bringing art and tech together with a unique design and precise timekeeping.",
+        "link": "",
+        "categories": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "title": "My Timeline",
+        "duration": "December 2022",
+        "description": "A basic project for learning UI concepts.",
+        "link": "",
+        "categories": ["HTML", "CSS"]
+      },
+      {
+        "title": "Realtime TicTacToe with Friends",
+        "duration": "November 2022",
+        "description": "Engaging TicTacToe game in real-time using Node.js, Firebase, HTML, CSS, and JavaScript.",
+        "link": "",
+        "categories": [
+          "NodeJS",
+          "Firebase",
+          "Web Development",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "title": "BCE Mart: Laptop Shopping App",
+        "duration": "September 2022",
+        "description": "User-friendly E-Commerce app simplifying laptop shopping for students on a budget.",
+        "link": "",
+        "categories": ["Android", "Kotlin", "Jetpack Compose"]
+      },
+      {
+        "title": "INSPIRE: Android App Showcase",
+        "duration": "September 2022",
+        "description": "First Android app using Jetpack Compose, showcasing modern UI development and innovation.",
+        "link": "",
+        "categories": ["Android", "Kotlin", "Jetpack Compose"]
+      },
+      {
+        "title": "Amazon-inspired Product Card",
+        "duration": "September 2022",
+        "description": "Modern product card designed using React, inspired by the renowned Amazon interface.",
+        "link": "",
+        "categories": ["React.JS", "Web Development"]
+      },
+      {
+        "title": "Vibrant Stopwatch",
+        "duration": "September 2022",
+        "description": "User-friendly stopwatch with auto color changer, reset button, and time bookmark function.",
+        "link": "",
+        "categories": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "title": "XSS Detector",
+        "duration": "April 2022",
+        "description": "Python script for penetration testing, detecting Cross-Site Scripting (XSS) vulnerabilities.",
+        "link": "",
+        "categories": ["Python", "Automation", "XSS Detection"]
+      },
+      {
+        "title": "National Tech Day Slider",
+        "duration": "May 2022",
+        "description": "Creative slider web app designed for National Technology Day using HTML, CSS, and jQuery.",
+        "link": "",
+        "categories": ["jQuery", "Web Development", "JavaScript", "HTML", "CSS"]
+      },
+      {
+        "title": "Dynamic Indian Flag",
+        "duration": "August 2020",
+        "description": "Captivating web project crafted in JavaScript featuring dynamic particle effects and interactivity.",
+        "link": "",
+        "categories": ["JavaScript", "HTML", "CSS"]
+      }
+    ];
+
+      const projectContainer = document.getElementById("project-container");
+
+      projects.forEach((project) => {
+        const projectCard = document.createElement("div");
+        projectCard.classList.add("w3-col", "l3", "m6", "w3-margin-bottom");
+
+        projectCard.innerHTML = `
+    <div class="w3-card w3-white w3-h-full">
+    ${
+      project.previewImage?'<img src="'+project.previewImage+'" alt="'+project.title+'" style="width:100%">':""
+      }
+      <div class="w3-container">
+        <h3>${project.title}</h3>
+        <p class="w3-opacity">${project.duration}</p>
+        <p>${project.description}</p>
+        <p><a href="${project.link}" target="_blank" class="w3-button w3-red w3-block">Project Link</a></p>
+      </div>
     </div>
-  </div>
+  `;
 
+        projectContainer.appendChild(projectCard);
+      });
+    </script>
 
+    <!---------------------------------------------------------------------------->
 
+    <!--Statistic area starts-->
 
-  <!--Projects Section-->
-  <div class="main3">
-    <div id="projects">
-
+    <div class="statistic-area section-padding custom-border">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <h2 class="counter">22</h2>
+              <!--edit-->
+              <p>Personal Projects Done*</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <h2 class="counter">3</h2>
+              <!--edit-->
+              <p>Internships Done</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <h2 class="counter">5</h2>
+              <!--edit-->
+              <p>Trainings Done</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <h2 class="counter" id="expCounter"></h2>
+              <!--edit-->
+              <p>Total Work Exp* (Months)</p>
+            </div>
+          </div>
+          <h7>* denotes ongoing.</h7> <br />
+          <a href="#Github" class="w3-hover-text-green"
+            >Check out my Github Activity Log</a
+          >
+        </div>
+      </div>
     </div>
 
-    <div class="form" id="contact">
-      <h1>Contact Me</h1>
-      <input placeholder="Enter Your Name.." type="text" class="inpname inp-box">
-      <input placeholder="Enter Your Email.." type="email" class="inpemail inp-box">
-      <textarea rows="5" placeholder="Your Message" type="text" class="inpname txt-area"></textarea>
-      <input type="submit" class="submit">
+    <!-- Github Section [Removed as for Now] -->
+
+    <div id="Github" class="github-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Github <span>Activities</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="calendar"></div>
+
+            <!-- // <-- for activity -->
+            <div id="feed"></div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!--Github Area Ends-->
 
+    <!-- Commented out for Security -->
 
+    <!--Contact Area Starts-->
+    <div id="contact" class="contact-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>My <span>Contact</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-contact-form">
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d811.5558116051732!2d85.5119237399385!3d25.460570271253108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2842e585973d1%3A0x2cadfba29199d9f2!2sBakhtiyarpur%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1719723449600!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
 
-    <footer class="footer">
-     HIMANSHU 2021
-    </footer>
-  </div>
-  <script src="./js/aos.js"></script>
-  <script src="js/index.js"></script>
-  <script>
-    AOS.init({
-      delay: 30,
-      duration: 500
-    })
+          <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+            <div class="right-contact">
+              <div class="right-contact-text">
+                <i class="fa fa-map-marker"></i>
+                <h2>Current Address</h2>
+                <p>Bakhtiyarpur College Of Engineering</p>
+                <!--edit here-->
+              </div>
+              <div class="right-contact-text">
+                <i class="fa fa-phone"></i>
+                <h2>Contact Number</h2>
+                <p>+91-8810284145</p>
+              </div>
+              <div class="right-contact-text">
+                <i class="fa fa-envelope"></i>
+                <h2>E - Mail</h2>
+                <p>himanshu.kumar5403@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <a href="#" class="w3-button w3-light-grey"
+              ><i class="fa fa-arrow-up w3-margin-right"></i>To the Top</a
+            >
+            <br />
+            <br />
+            <p>
+              &copy; All Rights Reserved By<a
+                href="https://linkedin.com/in/i-himanshu"
+                target="_blank"
+                class="w3-hover-text-green"
+              >
+                Himanshu Kumar </a
+              >(<a class="w3-text-white" id="currentYearId"></a>)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </script>
+    <!--Footer Area Ends-->
 
+    <!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
 
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
 
-</body>
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+
+    <!--Magnific popup js-->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+
+    <!--Counter up js-->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!--imagesloaded js-->
+    <script src="js/imagesloaded.min.js"></script>
+
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="js/owl.carousel.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--particles js-->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+
+    <!--Github js-->
+    <script>
+      GitHubCalendar(".calendar", "i-himanshu");
+
+      // or enable responsive functionality:
+      //GitHubCalendar(".calendar", "your-username", { responsive: true });
+
+      // Use a proxy
+      //GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
+      GitHubActivity.feed({
+        username: "i-himanshu",
+        // repository: "your-repo", // optional
+        selector: "#feed",
+        limit: 10, // optional
+      });
+    </script>
+
+    <!-- Total Experience Calculator -->
+    <script>
+      let currentDate = new Date();
+      let firstDate = new Date("2020-06-01");
+      var finalDifference =
+        3 +
+        currentDate.getMonth() -
+        firstDate.getMonth() +
+        12 * (currentDate.getFullYear() - firstDate.getFullYear());
+      document.getElementById("expCounter").innerHTML = finalDifference;
+    </script>
+
+    <!-- Extract the Current Business Year -->
+    <script>
+      var currentYear = new Date().getFullYear();
+      document.getElementById("currentYearId").innerHTML = currentYear;
+    </script>
+  </body>
 </html>
