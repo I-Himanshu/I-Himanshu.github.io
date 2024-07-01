@@ -138,9 +138,4 @@ $(document).ready(function () {
         }
     });
 
-	
-	
-	
-
-
 });
